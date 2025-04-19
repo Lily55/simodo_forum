@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "simodo_users",
+  "info": {
+    "singularName": "simodo-user",
+    "pluralName": "simodo-users",
+    "displayName": "Simodo_user"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "username": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

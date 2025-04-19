@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "simodo_forums",
+  "info": {
+    "singularName": "simodo-forum",
+    "pluralName": "simodo-forums",
+    "displayName": "simodo_forum",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Answers": {
+      "type": "json"
+    },
+    "Username": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
